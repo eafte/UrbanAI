@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "buildCommand": "chmod +x vercel-install-command.sh && ./vercel-install-command.sh && npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "ignoreCommand": "echo \"Skipping ignoreCommand\"",
+  "build": {
+    "env": {
+      "VERCEL_FILESYSTEM_CASE_SENSITIVE": "0",
+      "NODE_OPTIONS": "--max-old-space-size=4096"
+    }
+  },
+  "env": {
+    "NEXT_PUBLIC_VERCEL_ENV": "production"
+  }
+} 
