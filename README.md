@@ -47,8 +47,8 @@ UrbanAI is a comprehensive urban planning and visualization platform that levera
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/eafte/urbanai-project.git
-   cd urbanai-project
+   git clone https://github.com/eafte/UrbanAI.git
+   cd UrbanAI
    ```
 
 2. **Install dependencies**
@@ -61,10 +61,11 @@ UrbanAI is a comprehensive urban planning and visualization platform that levera
    Create a `.env.local` file with the following:
 
    ```
-   NEXT_PUBLIC_API_URL=http://localhost:3000/api
-   NEXT_PUBLIC_MAPBOX_TOKEN=your_mapbox_token
-   NEXT_PUBLIC_WEATHER_API_KEY=your_weather_api_key
-   JWT_SECRET=your_jwt_secret
+   DEEPSEEK_API_KEY=your_deepseek_api_key
+   METEOSOURCE_API_KEY=your_meteosource_api_key
+   OPENWEATHER_API_KEY=your_openweather_api_key
+   VISUAL_CROSSING_API_KEY=your_visual_crossing_api_key
+   NEXT_PUBLIC_APP_URL=http://localhost:3000
    ```
 
 4. **Set up the database**
@@ -183,4 +184,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-For questions or support, please contact [nexgendev45@gmail.com](mailto:your-email@example.com)
+For questions or support, please contact [nexgendev45@gmail.com](mailto:nexgendev45@gmail.com)
