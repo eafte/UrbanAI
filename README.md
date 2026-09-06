@@ -145,6 +145,7 @@ urbanai-project/
 ├── prisma/                   # Prisma schema and migrations
 ├── public/                   # Static assets
 ├── nginx/                    # Nginx configuration
+├── LICENSE                   # MIT License
 ├── docker-compose.yml        # Docker Compose configuration
 └── Dockerfile                # Docker configuration
 ```
@@ -180,7 +181,7 @@ The platform provides a comprehensive API for integration with other systems:
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](./LICENSE).
 
 ## 📧 Contact
 
